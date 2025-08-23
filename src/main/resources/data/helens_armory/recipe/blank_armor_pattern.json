@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SPS",
+    "SSS"
+  ],
+  "key": {
+            "S": {"item": "minecraft:string"},
+            "P": {"item": "minecraft:paper" }
+  },
+
+  "result": {"id": "helens_armory:blank_armor_pattern", "count": 1}
+
+}
