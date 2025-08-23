@@ -1,0 +1,25 @@
+{
+  "item.helens_armory.blank_armor_pattern":                "Blank Armor Pattern",
+  "item.helens_armory.leather_armor_pattern":              "Leather Armor Pattern",
+  "item.helens_armory.gold_armor_pattern":                 "Gold Armor Pattern",
+  "item.helens_armory.chainmail_armor_pattern":            "Chainmail Armor Pattern",
+  "item.helens_armory.iron_armor_pattern":                 "Iron Armor Pattern",
+  "item.helens_armory.diamond_armor_pattern":              "Diamond Armor Pattern",
+  "item.helens_armory.netherite_armor_pattern":            "Netherite Armor Pattern",
+
+  "item.helens_armory.rare_leather_armor_pattern":         "Rare Leather Armor Pattern",
+  "item.helens_armory.rare_gold_armor_pattern":            "Rare Gold Armor Pattern",
+  "item.helens_armory.rare_chainmail_armor_pattern":       "Rare Chainmail Armor Pattern",
+  "item.helens_armory.rare_iron_armor_pattern":            "Rare Iron Leather Armor Pattern",
+  "item.helens_armory.rare_diamond_armor_pattern":         "Rare Diamond Armor Pattern",
+  "item.helens_armory.rare_netherite_armor_pattern":       "Rare Netherite Armor Pattern",
+
+  "item.helens_armory.legendary_leather_armor_pattern":    "Legendary Leather Armor Pattern",
+  "item.helens_armory.legendary_gold_armor_pattern":       "Legendary Gold Armor Pattern",
+  "item.helens_armory.legendary_chainmail_armor_pattern":  "Legendary Chainmail Armor Pattern",
+  "item.helens_armory.legendary_iron_armor_pattern":       "Legendary Iron Leather Armor Pattern",
+  "item.helens_armory.legendary_diamond_armor_pattern":    "Legendary Diamond Armor Pattern",
+  "item.helens_armory.legendary_netherite_armor_pattern":  "Legendary Netherite Armor Pattern",
+
+  "creativetab.helens_armory.helens_armory" : "Helen's Armory"
+}

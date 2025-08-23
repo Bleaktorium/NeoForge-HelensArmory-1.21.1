@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "helens_armory:item/blank_armor_pattern"
+  }
+}

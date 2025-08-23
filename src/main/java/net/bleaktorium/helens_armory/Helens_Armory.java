@@ -1,5 +1,7 @@
 package net.bleaktorium.helens_armory;
 
+import net.bleaktorium.helens_armory.item.ModCreativeModeTabs;
+import net.bleaktorium.helens_armory.item.ModItems;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
@@ -29,6 +31,10 @@ public class Helens_Armory {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);                   // CREATIVE TAB
+
+        ModItems.register(modEventBus);                              // MOD ITEMS
 
         modEventBus.addListener(this::addCreative);
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "helens_armory:item/legendary_chainmail_armor_pattern"
+  }
+}
