@@ -1,0 +1,10 @@
+{
+  "values": [
+    "helens_armory:leather_armor_pattern",
+    "helens_armory:chainmail_armor_pattern",
+    "helens_armory:gold_armor_pattern",
+    "helens_armory:iron_armor_pattern",
+    "helens_armory:diamond_armor_pattern",
+    "helens_armory:netherite_armor_pattern"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "helens_armory:blank_armor_pattern"},
+    {"item": "minecraft:leather"}
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "helens_armory:leather_armor_pattern"
+  }
+
+}
