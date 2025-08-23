@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "helens_armory:blank_armor_pattern"},
+    {"item": "minecraft:netherite_scrap"}
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "helens_armory:netherite_armor_pattern"
+  }
+
+}

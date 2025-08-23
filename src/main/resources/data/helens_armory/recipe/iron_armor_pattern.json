@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "helens_armory:blank_armor_pattern"},
+    {"item": "minecraft:iron_ingot"}
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "helens_armory:iron_armor_pattern"
+  }
+
+}
