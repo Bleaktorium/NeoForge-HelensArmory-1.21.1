@@ -41,7 +41,7 @@ public class TestBackCurioGeoRenderer extends GeoItemRenderer<TestBackCurioItem>
             hum.body.translateAndRotate(pose);
         }
 
-        // adjust to taste
+        // adjust
         pose.translate(0.0D, 0.15D, 0.25D);
 
         super.renderByItem(stack, ItemDisplayContext.NONE, pose, buffers, light, OverlayTexture.NO_OVERLAY);
