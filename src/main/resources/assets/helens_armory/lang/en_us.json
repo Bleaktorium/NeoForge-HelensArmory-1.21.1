@@ -21,5 +21,7 @@
   "item.helens_armory.legendary_diamond_armor_pattern":    "Legendary Diamond Armor Pattern",
   "item.helens_armory.legendary_netherite_armor_pattern":  "Legendary Netherite Armor Pattern",
 
-  "creativetab.helens_armory.helens_armory" : "Helen's Armory"
+  "creativetab.helens_armory.helens_armory" : "Helen's Armory",
+
+  "item.helens_armory.test_back_item" : "Test Back Item"
 }

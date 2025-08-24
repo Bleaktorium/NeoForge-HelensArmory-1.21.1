@@ -44,6 +44,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LEGENDARY_DIAMOND_ARMOR_PATTERN);
                         output.accept(ModItems.LEGENDARY_NETHERITE_ARMOR_PATTERN);
 
+                        // BACK ITEMS
+                        output.accept(ModItems.TEST_BACK_ITEM);
+
                     }).build());
 
 
