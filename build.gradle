@@ -132,6 +132,7 @@ dependencies {
 
     // CURIOS
     compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
+    runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
 
 }
 
