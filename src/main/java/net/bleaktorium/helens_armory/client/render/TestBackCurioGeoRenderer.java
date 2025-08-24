@@ -34,7 +34,9 @@ public class TestBackCurioGeoRenderer extends GeoItemRenderer<TestBackCurioItem>
 
         pose.pushPose();
 
-        if (parent.getModel() instanceof HumanoidModel<?> hum) {
+        if (parent.getModel() instanceof HumanoidModel<?> anyHum) {
+            @SuppressWarnings("unchecked")
+            HumanoidModel<LivingEntity> hum = (HumanoidModel<LivingEntity>) (HumanoidModel<?>) anyHum;
             ICurioRenderer.followBodyRotations(slotCtx.entity(), hum);
             hum.body.translateAndRotate(pose);
         }
@@ -42,7 +44,7 @@ public class TestBackCurioGeoRenderer extends GeoItemRenderer<TestBackCurioItem>
         // adjust to taste
         pose.translate(0.0D, 0.15D, 0.25D);
 
-        this.render(stack, ItemDisplayContext.NONE, pose, buffers, light, OverlayTexture.NO_OVERLAY);
+        super.renderByItem(stack, ItemDisplayContext.NONE, pose, buffers, light, OverlayTexture.NO_OVERLAY);
         pose.popPose();
     }
 }
