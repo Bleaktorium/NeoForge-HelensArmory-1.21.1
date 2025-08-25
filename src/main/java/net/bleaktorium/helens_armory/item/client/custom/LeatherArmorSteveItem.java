@@ -50,7 +50,13 @@ public class LeatherArmorSteveItem extends ArmorItem implements GeoItem {
                     new GeoArmorRenderer<>(new LeatherArmorSteveModel());
 
             @Override
-            public GeoArmorRenderer<?> getGeoArmorRenderer(ArmorItem armorItem) {
+            public <T extends LivingEntity>
+            net.minecraft.client.model.HumanoidModel<?> getGeoArmorRenderer(
+                    @Nullable T living, ItemStack stack,
+                    @Nullable EquipmentSlot slot,
+                    @Nullable HumanoidModel<T> original) {
+
+                if (renderer == null) renderer = new LeatherArmorSteveRenderer();
                 return renderer;
             }
         });

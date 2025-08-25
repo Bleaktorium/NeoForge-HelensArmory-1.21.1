@@ -59,22 +59,22 @@ public class ModItems {
 
     // ARMORS
     public static final DeferredItem<LeatherArmorSteveItem> LEATHER_HELMET =
-            ITEMS.register("leather_helmet",
+            ITEMS.registerItem("leather_helmet",
                     props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, props));
 
     public static final DeferredItem<LeatherArmorSteveItem> LEATHER_CHESTPLATE =
-            ITEMS.register("leather_chestplate",
+            ITEMS.registerItem("leather_chestplate",
                     props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, props));
 
     public static final DeferredItem<LeatherArmorSteveItem> LEATHER_LEGGINGS =
-            ITEMS.register("leather_leggings",
+            ITEMS.registerItem("leather_leggings",
                     props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, props));
 
     public static final DeferredItem<LeatherArmorSteveItem> LEATHER_BOOTS =
-            ITEMS.register("leather_boots",
+            ITEMS.registerItem("leather_boots",
                     props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, props));
 
-    // CURIOS BACK ITEMS
+    // CURIOS BACK ITEMS if i can get it to work lol
 
 
 
