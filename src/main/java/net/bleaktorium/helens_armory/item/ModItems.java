@@ -53,9 +53,10 @@ public class ModItems {
     public static final DeferredItem<Item> LEGENDARY_NETHERITE_ARMOR_PATTERN = ITEMS.register("legendary_netherite_armor_pattern",
             () -> new Item(new Item.Properties()));
 
+    // ARMORS
+
+
     // CURIOS BACK ITEMS
-    public static final DeferredItem<Item> TEST_BACK_ITEM = ITEMS.register("test_back_item",
-            () -> new Item(new Item.Properties().stacksTo(1)));
 
 
 
