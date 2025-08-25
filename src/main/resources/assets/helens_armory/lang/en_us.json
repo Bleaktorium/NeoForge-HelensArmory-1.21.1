@@ -23,5 +23,8 @@
 
   "creativetab.helens_armory.helens_armory" : "Helen's Armory",
 
-  "item.helens_armory.test_back_item" : "Test Back Item"
+  "item.helens_armory.leather_armor_steve_helmet": "Leather Armor Helmet",
+  "item.helens_armory.leather_armor_steve_chestplate": "Leather Armor Chestplate",
+  "item.helens_armory.leather_armor_steve_leggings": "Leather Armor Leggings",
+  "item.helens_armory.leather_armor_steve_boots": "Leather Armor Boots"
 }

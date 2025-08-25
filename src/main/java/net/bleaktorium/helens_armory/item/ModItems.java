@@ -1,6 +1,7 @@
 package net.bleaktorium.helens_armory.item;
 
 import net.bleaktorium.helens_armory.Helens_Armory;
+import net.bleaktorium.helens_armory.item.client.custom.LeatherArmorSteveItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -53,8 +54,29 @@ public class ModItems {
     public static final DeferredItem<Item> LEGENDARY_NETHERITE_ARMOR_PATTERN = ITEMS.register("legendary_netherite_armor_pattern",
             () -> new Item(new Item.Properties()));
 
-    // ARMORS
 
+    private static Item.Properties armorProps() {
+        return new Item.Properties();
+    }
+    // ARMORS
+    public static final RegistryObject<Item> LEATHER_HELMET =
+            ITEMS.register("leather_helmet", () -> new LeatherArmorSteveItem(
+                    net.minecraft.world.item.ArmorItem.Type.HELMET, armorProps()));
+
+    private static Object armorProps() {
+    }
+
+    public static final RegistryObject<Item> LEATHER_CHEST =
+            ITEMS.register("your_armor_chestplate", () -> new LeatherArmorSteveItem(
+                    net.minecraft.world.item.ArmorItem.Type.CHESTPLATE, armorProps()));
+
+    public static final RegistryObject<Item> LEATHER_LEGGINGS =
+            ITEMS.register("your_armor_leggings", () -> new LeatherArmorSteveItem(
+                    net.minecraft.world.item.ArmorItem.Type.LEGGINGS, armorProps()));
+
+    public static final RegistryObject<Item> LEATHER_BOOTS =
+            ITEMS.register("your_armor_boots", () -> new LeatherArmorSteveItem(
+                    net.minecraft.world.item.ArmorItem.Type.BOOTS, armorProps()));
 
     // CURIOS BACK ITEMS
 
