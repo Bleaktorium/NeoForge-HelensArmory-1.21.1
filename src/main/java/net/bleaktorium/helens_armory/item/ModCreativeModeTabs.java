@@ -44,6 +44,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LEGENDARY_DIAMOND_ARMOR_PATTERN);
                         output.accept(ModItems.LEGENDARY_NETHERITE_ARMOR_PATTERN);
 
+                        output.accept(ModItems.LEATHER_HELMET);
+                        output.accept(ModItems.LEATHER_CHESTPLATE);
+                        output.accept(ModItems.LEATHER_LEGGINGS);
+                        output.accept(ModItems.LEATHER_BOOTS);
+
 
                     }).build());
 
