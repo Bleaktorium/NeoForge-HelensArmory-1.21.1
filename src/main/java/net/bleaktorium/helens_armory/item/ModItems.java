@@ -2,6 +2,8 @@ package net.bleaktorium.helens_armory.item;
 
 import net.bleaktorium.helens_armory.Helens_Armory;
 import net.bleaktorium.helens_armory.item.client.custom.LeatherArmorSteveItem;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -55,28 +57,22 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
-    private static Item.Properties armorProps() {
-        return new Item.Properties();
-    }
     // ARMORS
-    public static final RegistryObject<Item> LEATHER_HELMET =
-            ITEMS.register("leather_helmet", () -> new LeatherArmorSteveItem(
-                    net.minecraft.world.item.ArmorItem.Type.HELMET, armorProps()));
+    public static final DeferredItem<LeatherArmorSteveItem> LEATHER_HELMET =
+            ITEMS.register("leather_helmet",
+                    props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, props));
 
-    private static Object armorProps() {
-    }
+    public static final DeferredItem<LeatherArmorSteveItem> LEATHER_CHESTPLATE =
+            ITEMS.register("leather_chestplate",
+                    props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, props));
 
-    public static final RegistryObject<Item> LEATHER_CHEST =
-            ITEMS.register("your_armor_chestplate", () -> new LeatherArmorSteveItem(
-                    net.minecraft.world.item.ArmorItem.Type.CHESTPLATE, armorProps()));
+    public static final DeferredItem<LeatherArmorSteveItem> LEATHER_LEGGINGS =
+            ITEMS.register("leather_leggings",
+                    props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, props));
 
-    public static final RegistryObject<Item> LEATHER_LEGGINGS =
-            ITEMS.register("your_armor_leggings", () -> new LeatherArmorSteveItem(
-                    net.minecraft.world.item.ArmorItem.Type.LEGGINGS, armorProps()));
-
-    public static final RegistryObject<Item> LEATHER_BOOTS =
-            ITEMS.register("your_armor_boots", () -> new LeatherArmorSteveItem(
-                    net.minecraft.world.item.ArmorItem.Type.BOOTS, armorProps()));
+    public static final DeferredItem<LeatherArmorSteveItem> LEATHER_BOOTS =
+            ITEMS.register("leather_boots",
+                    props -> new LeatherArmorSteveItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, props));
 
     // CURIOS BACK ITEMS
 
