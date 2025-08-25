@@ -56,7 +56,6 @@ public class LeatherArmorSteveItem extends ArmorItem implements GeoItem {
                     @Nullable EquipmentSlot slot,
                     @Nullable HumanoidModel<T> original) {
 
-                if (renderer == null) renderer = new LeatherArmorSteveRenderer();
                 return renderer;
             }
         });
